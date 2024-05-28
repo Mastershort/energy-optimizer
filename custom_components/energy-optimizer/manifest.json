@@ -2,14 +2,10 @@
     "domain": "energy_optimizer",
     "name": "Energy Optimizer",
     "documentation": "https://github.com/Mastershort/energy-optimizer",
-    "dependencies": [],
-    "codeowners": [],
-    "requirements": [],
-    "after_dependencies": [],
-    "version": "1.0.0",
+    "dependencies": [mqtt],
+    "codeowners": [@mastershort],
+     "version": "1.0.0",
     "description": "An integration for optimizing energy consumption based on solar production and weather forecasts.",
     "config_flow": true,
     "documentation": "https://github.com/Mastershort/energy-optimizer/blob/main/README.md",
-    "dependencies": [],
-    "codeowners": []
 }
